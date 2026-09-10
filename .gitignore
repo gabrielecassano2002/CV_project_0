@@ -1,0 +1,46 @@
+# DEFAULT VERSION:
+
+# Python-generated files
+# __pycache__/
+# *.py[oc]
+# build/
+# dist/
+# wheels/
+# *.egg-info
+
+# Virtual environments
+# .venv
+
+
+# GEMINI VERSION:
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+
+# Computer Vision Model Weights (Large files)
+*.pt
+*.pth
+*.onnx
+*.engine
+*.weights
+
+# Local Datasets & Media Inputs
+data/
+datasets/
+*.mp4
+*.avi
+*.jpg
+*.png
+
+# Environment Variables & IDE Configs
+.env
+.vscode/
+.idea/
+

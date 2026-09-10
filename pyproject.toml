@@ -1,0 +1,21 @@
+[project]
+name = "my-cv-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Gabriele Cassano", email = "gabriele.cassano@tum.de" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "opencv-python>=5.0.0.93",
+    "torch>=2.14.0",
+    "torchvision>=0.29.0",
+]
+
+[project.scripts]
+my-cv-project = "my_cv_project:main"
+
+[build-system]
+requires = ["uv_build>=0.12.6,<0.13.0"]
+build-backend = "uv_build"
